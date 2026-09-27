@@ -21,8 +21,8 @@ def preprocessing(P: str, B: str, K: str):
     P_list = P.split(",")
     B_list = B.split(",")
     K_list = K.split(",")
-    P_list = [x.strip() for x in P_list]
-    B_list = [x.strip() for x in B_list]
+    P_list = [int(x.strip()) for x in P_list]
+    B_list = [int(x.strip()) for x in B_list]
     K_list = [int(x.strip()) for x in K_list]
     return P_list, B_list, K_list
 
