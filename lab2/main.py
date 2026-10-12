@@ -10,6 +10,7 @@ def find_DDT(S: list[int], N: int) -> list:
 
 if __name__ == '__main__':
     # S = [0, 2, 13, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 14, 15]
+    # S = [6, 8, 2, 3, 9, 10, 5, 12, 1, 14, 4, 7, 11, 13, 0, 15]
     S = list(map(int, input("S: ").split(", ")))
     N = len(S)
     DDT = find_DDT(S, N)
